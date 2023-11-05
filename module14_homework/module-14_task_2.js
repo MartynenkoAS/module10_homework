@@ -23,7 +23,7 @@ const jsonString = `
 `;
 
 /* Этап 2. Получение данных */
-const data = JSON.parse(jsonString);  // преобразовываем JSON в объект JS
+const data = JSON.parse(jsonString);    // преобразовываем JSON в объект JS
 
 for (var i = 0; i < data.list.length; i++) { // меняет тип значения age 
     data.list[i].age = +data.list[i].age;
